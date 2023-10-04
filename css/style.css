@@ -544,3 +544,46 @@ h6,
     border: solid;
 
 }
+
+@media (min-width: 750px){
+    .anuncio{
+
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        /* border: solid; */
+        justify-content: space-between;
+        text-align:center;
+        margin-left: 10%; 
+        margin-right: 10%;
+        align-items: center;
+    }
+
+    .imagem{
+
+        height: 80%;
+        width: auto;
+
+    }
+}
+
+@media (max-width: 749px){
+
+    .anuncio{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        /* border: solid; */
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imagem{
+    
+        height: auto;
+        width: 75%;
+    
+    }
+
+}
