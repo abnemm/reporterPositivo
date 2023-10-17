@@ -565,6 +565,13 @@ h6,
         width: auto;
 
     }
+
+    .banner{
+
+        height: 80%;
+        width: auto;
+
+    }
 }
 
 @media (max-width: 749px){
